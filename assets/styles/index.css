@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #f152f1;
+  background-color: #f0f05c;
   /* color of the scroll thumb */
   border-radius: 20px;
   /* creates padding around scroll thumb */
@@ -28,7 +28,7 @@ body::-webkit-scrollbar-thumb {
 
 hr {
   border: 1px solid #f152f1;
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ hr {
   margin: auto;
 }
 .menu-wrapper a {
-  color: #f152f1;
+  color: #f0f05c;
   font-size: 1.5rem;
   padding: 20px;
 }
@@ -61,9 +61,12 @@ main {
   padding: 0 20px;
 }
 
+#sobre {
+  width: 100%;
+}
+
 .sobre-container {
   padding: 100px 0 50px 0;
-  background-image: url(../../../img/background.jpg);
 }
 
 .sobre-wrapper {
@@ -81,7 +84,7 @@ main {
   max-width: 300px;
   border-radius: 50%;
   background-color: #13051d;
-  border: 10px solid #3ae495;
+  border: 10px solid #f152f1;
 }
 .sobre-wrapper h1 {
   font-size: 3.5rem;
@@ -151,6 +154,9 @@ main {
   justify-content: center;
   flex-wrap: wrap;
 }
+.skills-wrapper img {
+  width: 200px;
+}
 
 footer {
   max-width: 1248px;
@@ -161,8 +167,8 @@ footer {
   border-top: 1px solid #5cc2f1;
 }
 footer p {
-  color: #f152f1;
+  color: #f0f05c;
 }
 footer a {
-  color: #3ae495;
+  color: #f0f05c;
 }/*# sourceMappingURL=index.css.map */
