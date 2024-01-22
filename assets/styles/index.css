@@ -28,7 +28,7 @@ body::-webkit-scrollbar-thumb {
 
 hr {
   border: 1px solid #f152f1;
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -38,23 +38,25 @@ hr {
   margin: 0 auto;
   height: 80px;
   max-width: 1248px;
-  width: 100%;
   border-bottom: 1px solid #5cc2f1;
 }
 
 .menu-wrapper {
   display: flex;
+  justify-content: space-around;
   margin: auto;
 }
 .menu-wrapper a {
   color: #f152f1;
-}
-
-.menu-item {
   font-size: 1.5rem;
-  padding: 0 1rem;
+  padding: 20px;
 }
 
+@media screen and (max-width: 548px) {
+  .menu-container {
+    display: none;
+  }
+}
 main {
   padding: 0 20px;
 }
