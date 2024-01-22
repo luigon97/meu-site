@@ -1,0 +1,33 @@
+
+
+.projects-container {
+    max-width: 1046px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+#projects-title {
+    text-align: center;
+    padding-bottom: 4rem;
+    font-size: 3rem;
+    color: $secondary;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cards-wrapper {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    img {
+        width: 200px;
+        height: 300px;
+        border: 2px dashed;
+    }
+}

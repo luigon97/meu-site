@@ -1,0 +1,51 @@
+@import '../global/variables';
+
+
+.sobre-container {
+    padding: 100px 0 50px 0;
+    
+    background-image: url(../../../img/background.jpg);
+}
+
+.sobre-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    gap: 2rem;
+
+    .sobre-banner {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 50%;
+        background-color: $primary;
+        border: 10px solid $secondary;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        color: $alternative;
+    }
+
+    span {
+        color: $secondary;
+    }
+
+    p {
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 2.2rem;
+    }
+}
+
+.social-item {
+    display: inline;
+    padding: 0 10px;
+}

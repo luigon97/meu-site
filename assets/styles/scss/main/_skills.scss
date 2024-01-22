@@ -1,0 +1,16 @@
+#skills {
+    padding: 50px 0;
+}
+
+#skills-title {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: $secondary;
+}
+
+.skills-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
